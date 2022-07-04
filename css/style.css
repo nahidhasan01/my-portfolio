@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .header h1{
     font-size: 50px;
@@ -16,6 +17,7 @@ body{
 }
 .header p{
     color: dimgray;
+    margin-right: 60px;
 }
 .flex{
     display: flex;
@@ -34,4 +36,15 @@ body{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    display: block;
+    margin-top: 10px;
+    width: 70px;
+    text-align: center;
+}
+.image{
+    background-image: url(../photos/top-banner.png);
+    background-repeat: no-repeat;
+}
+.move{
+    margin-top: 10px;
 }
