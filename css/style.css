@@ -1,4 +1,7 @@
-
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -13,4 +16,22 @@ body{
 }
 .header p{
     color: dimgray;
+}
+.flex{
+    display: flex;
+}
+.Poster{
+    width: 50%;
+    padding-left: 10px;
+}
+.Poster img{
+    width: 80%
+}
+.Link-Btn{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
